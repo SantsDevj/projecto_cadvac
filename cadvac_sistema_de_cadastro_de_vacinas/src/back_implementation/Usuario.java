@@ -1,3 +1,4 @@
+package back_implementation;
 public abstract class Usuario{ //abstract quer dizer que esta classe não pode ser herdada
     //Atributos desta classe
 
@@ -34,8 +35,12 @@ public abstract class Usuario{ //abstract quer dizer que esta classe não pode s
     }
     
     //Métodos da Classe usuário
+    public void cadastarUsuario(){
+        
+    }
     public boolean autenticar(){
-        return false;
+
+        return true;
     }
 
     public void actualizarPerfil(){
